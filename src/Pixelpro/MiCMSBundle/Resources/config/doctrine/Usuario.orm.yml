@@ -1,0 +1,18 @@
+Pixelpro\MiCMSBundle\Entity\Usuario:
+    type: entity
+    table: null
+    repositoryClass: Pixelpro\MiCMSBundle\Repository\UsuarioRepository
+    id:
+        id:
+            type: integer
+            id: true
+            generator:
+                strategy: AUTO
+    fields:
+        username:
+            type: string
+            length: 255
+        password:
+            type: string
+            length: '80'
+    lifecycleCallbacks: {  }

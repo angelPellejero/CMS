@@ -1,0 +1,3 @@
+pixelpro_mi_cms_homepage:
+    path:     /
+    defaults: { _controller: PixelproMiCMSBundle:Default:index }
